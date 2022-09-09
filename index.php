@@ -20,6 +20,10 @@
     $idade = 38;
     $altura = 1.90;
     echo "Meu nome é $nome , tenho $idade anos, minha altura é $altura";
+    echo "<hr>";
+    $nome = "variavel";
+    $$nome = "marcos";
+    echo "Meu nome é $variavel , tenho $idade anos, minha altura é $altura";
     ?>
    
 </body>
