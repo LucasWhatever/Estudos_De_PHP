@@ -55,4 +55,10 @@ class Nomeador
 
 $escolhido = new Nomeador();
 $escolhido->nomear("Carlos");
+$escolhido->nomear("Lucas");
 var_dump($escolhido);
+echo "<hr>";
+if (is_object($escolhido)) : echo "Olá meu nome é $nome, isso é um object";
+else : echo "isso não é um object";
+
+endif;
