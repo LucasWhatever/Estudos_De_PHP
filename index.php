@@ -9,10 +9,19 @@
 </head>
 
 <body>
-    <h1>TITULO</h1>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at facere doloremque recusandae adipisci,
-        repudiandae nostrum cum ipsa accusantium unde laboriosam amet dolorum assumenda officia, perspiciatis odit
-        soluta culpa. Nostrum.</P>
+    <h1>Teste de php</h1>
+    
+    <?php 
+    $nome = "lucas";
+    $idade = 22;
+    $altura = 1.75;
+    echo "Meu nome é $nome , tenho $idade anos, minha altura é $altura <br>";
+    $nome = "marcos";
+    $idade = 38;
+    $altura = 1.90;
+    echo "Meu nome é $nome , tenho $idade anos, minha altura é $altura";
+    ?>
+   
 </body>
 
 </html>
