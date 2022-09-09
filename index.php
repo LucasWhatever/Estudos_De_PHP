@@ -10,22 +10,11 @@
 
 <body>
     <h1>Teste de php</h1>
-    
-    <?php 
-    $nome = "lucas";
-    $idade = 22;
-    $altura = 1.75;
-    echo "Meu nome é $nome , tenho $idade anos, minha altura é $altura <br>";
-    $nome = "marcos";
-    $idade = 38;
-    $altura = 1.90;
-    echo "Meu nome é $nome , tenho $idade anos, minha altura é $altura";
-    echo "<hr>";
-    $nome = "variavel";
-    $$nome = "marcos";
-    echo "Meu nome é $variavel , tenho $idade anos, minha altura é $altura";
+    <?php
+    echo "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis maiores minus nobis quaerat illum earum sunt, enim est fugiat ex reiciendis voluptates. Voluptatibus voluptate ducimus dolores asperiores hic dolorum officiis.</p>"
     ?>
-   
+
+
 </body>
 
 </html>
